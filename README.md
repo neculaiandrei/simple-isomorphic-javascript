@@ -26,8 +26,15 @@ module.exports = Hello;
 
 Of course, we have to browserify this in order to work on client.
 
-## Clone
+## Getting up and running
 
-## Install
+* Clone this repo from `https://github.com/neculaiandrei/simple-isomorphic-javascript.git`
+* Run `npm install` from root directory
+* Run `gulp` 
+* Run `npm server.js`
 
-## Run
+## Test code
+* Open `localhost:11001`
+* Check both browser's console and the console of the running Node server.
+  Both have displayed proper messages
+* Every client request will display the messages again
